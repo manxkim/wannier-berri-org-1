@@ -105,7 +105,7 @@ as Brillouin zone integrals (by means of the |integrate| function):
       \langle\psi_{m{\bf k}}\vert v_\beta\vert\psi_{n{\bf k}}\rangle}
       {\varepsilon_{m{\bf k}}-\varepsilon_{n{\bf k}}-(\hbar\omega+i\eta)}.
 
--  ``’opt_shiftcurrent’``: Nonlinear shift photoconductivity, using generalized derivative form from (`Ibanez-Azpiroz, Tsirkin, and Souza, PRB 2018 <https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.245143>`_) 
+-  ``’opt_shiftcurrent’``: Nonlinear shift photoconductivity, using generalized derivative of position as described in (`Ibanez-Azpiroz, Tsirkin, and Souza, PRB 2018 <https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.245143>`_) 
   
    .. math:: 
      
