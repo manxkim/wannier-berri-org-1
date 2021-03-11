@@ -105,11 +105,10 @@ as Brillouin zone integrals (by means of the |integrate| function):
       \langle\psi_{m{\bf k}}\vert v_\beta\vert\psi_{n{\bf k}}\rangle}
       {\varepsilon_{m{\bf k}}-\varepsilon_{n{\bf k}}-(\hbar\omega+i\eta)}.
 
--  ``’opt_shiftcurrent’``: Shift photoconductivity (`Ibanez-Azpiroz, Tsirkin, and Souza, PRB 2018 <https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.245143>`_) 
+-  ``’opt_shiftcurrent’``: Nonlinear shift photoconductivity (`Ibanez-Azpiroz, Tsirkin, and Souza, PRB 2018 <https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.245143>`_) 
   
    .. math:: 
-      :label: shiftcurform
-
+     
       \sigma^{abc}(\omega)=-\dfrac{i\pi e^{3}}{2\hbar^{2}}\frac{1}{N_k\Omega_c}\sum_{\bf k}
       \sum_{n,m}(f_{m{\bf k}}-f_{n{\bf k}})({r^{b}_{mn}}\textcolor{red}{ r^{c}_{nm;a}}+
       b\leftrightarrow c)
